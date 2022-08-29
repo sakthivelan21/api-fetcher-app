@@ -1,0 +1,18 @@
+import React from 'react';
+import './Input.css';
+
+function Input({placeholder,type,onChange,value,name,autoFocus}){
+    return(
+        <input 
+        name={name}
+        autoFocus={autoFocus}
+        className='form-input'
+        placeholder={placeholder}
+        type={type}
+        onChange={onChange}
+        value={value}
+        />
+    )
+}
+
+export default React.memo(Input);

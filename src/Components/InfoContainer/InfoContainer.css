@@ -1,0 +1,19 @@
+.info-container{
+    width:55%;
+    margin: 0 auto;
+}
+
+
+@media screen and (max-width:760px) {
+    .info-container{
+        width: 80%;
+    }
+    
+}
+
+@media screen and (max-width:540px) {
+    .info-container{
+        width: 90%;
+    }
+    
+}
